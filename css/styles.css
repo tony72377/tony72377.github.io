@@ -16,7 +16,9 @@ body {
 body {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+a:hover{
+  text-decoration: none;
+}
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -209,10 +211,13 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
+    background-color: #F6F6F7;
 }
 
 .portfolio-item {
     margin-bottom: 30px;
+    box-shadow:1px 5px 20px rgba(125, 125, 125, 0.4);
+
 }
 
 .img-portfolio {
@@ -221,6 +226,13 @@ hr.small {
 
 .img-portfolio:hover {
     opacity: .8;
+}
+
+.img-title{
+  background-color: #fff;
+  color: #212529;
+  padding-top:5px;
+  padding-bottom: 15px;
 }
 
 
