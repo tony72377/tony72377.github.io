@@ -195,7 +195,7 @@ hr.small {
 /* Callout */
 
 .callout {
-    display: table;
+    display: inline-block;
     width: 100%;
     height: 400px;
     color: #fff;
@@ -204,6 +204,21 @@ hr.small {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.callout div h2{
+  font-size: 4em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .callout div h2{
+        font-size: 3em;
+    }
+}
+.flex-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
