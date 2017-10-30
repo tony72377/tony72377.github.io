@@ -98,7 +98,7 @@ setTimeout(function() {
   $("#content").fadeOut("slow", function() {
    $("#content").fadeOut("slow", function() {
      $("#content").html("<div class='top'>\
-<img src='img/sm-logo.png'>\
+<img src='img/SM-LOGO.png'>\
    </div>\
    <div class='text1'>\
      <p>\
@@ -122,7 +122,7 @@ setTimeout(function() {
    $("#content").fadeOut("slow", function() {
      $("#content").html("<div class='contactBox'>\
      <div class='smLogo'>\
-       <img src='img/small-logo.png'>\
+       <img src='img/SMALL-LOGO.png'>\
     </div>\
     <p>CONTACT US</p>\
     <form>\
