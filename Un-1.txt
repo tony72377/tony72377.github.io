@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Anthony Corea's Website Porfolio">
+    <meta name="author" content="">
+
+    <title>Web Developer Anthony Corea</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <header class="vid" id="top">
+      <div class="fullscreen-bg">
+    <video loop muted autoplay poster="" class="fullscreen-bg__video">
+
+        <source src="img/166679661.mp4" type="video/mp4">
+
+    </video>
+</div>
+    </header>
+    <div class="container">
+      <div class="row text-center vertical-align">
+        <div class="col-lg-12">
+          <div id="content">
+            <img src="img/sm-logo.png">
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2">
+          <img src="img/ISG-Logo.png">
+        </div>
+        <div class="col-lg-8"></div>
+        <div class="col-lg-2">
+            <img src="img/elad-Logo.png">
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="devfooter">
+            <p>ORAL REPRESENTATIONS CANNOT BE RELIED UPON AS CORRECTLY STATING REPRESENTATIONS OF THE DEVELOPER. FOR CORRECT REPRESENTATIONS, MAKE REFERENCE<br> 
+                TO THIS BROCHURE AND TO THE DOCUMENTS REQUIRED BY SECTION 718.503, FLORIDA STATUTES, TO BE FURNISHED BY A DEVELOPER TO A BUYER OR LESSEE.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/stylish-portfolio.js"></script>
+    </body>
+    </html>
+/*!
+ * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Custom Button Styles */
+
+.btn-dark {
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.btn-light {
+    color: #333;
+    border: none;
+    border-radius: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    overflow-y: auto;
+    width: 250px;
+    height: 100%;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -ms-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    transform: translateX(250px);
+    background: #222;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    line-height: 40px;
+    text-indent: 20px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, .2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    font-size: 18px;
+    line-height: 55px;
+    height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#menu-toggle {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -ms-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+.toggle {
+    font-size: 1em;
+    margin: 5px 5px 0 0;
+    padding: 15px 20px;
+}
+
+
+/* Header */
+
+.header {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*devtest*/
+
+@font-face {
+    font-family:'avenirlt';
+    src: url("../fonts/AvenirLTStd-Book.otf")
+}
+@font-face {
+    font-family:'futurabook';
+    src: url("../fonts/Futura Book.otf")
+}
+@font-face {
+    font-family:'futuralight';
+    src: url("../fonts/Futura Light.otf")
+}
+/*video background*/
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}
+
+/*@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('img/166679661.mp4') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
+*/
+
+.vertical-align {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+  }
+  
+  .vertical-align > [class^="col-"],
+  .vertical-align > [class*=" col-"] {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+.devfooter{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 15px;
+    font-family: "avenirlt";
+}
+.devfooter::before{
+    content: url("/img/EQUAL-HOUSING-LOGO.png");
+    position: absolute;
+    left: -30px;
+}
+.top {
+    margin-bottom: 70px;
+}
+.top img{
+    max-width: 25%;
+}
+.text1 p {
+    color:#fff;
+    font-size: 24px;
+    font-family: "futurabook";
+}
+a.btn.btncontact {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px 50px;
+    margin-top: 50px;
+    font-family: "futurabook";
+    letter-spacing: 2px;
+}
+
+.contactBox {
+    background: rgba(54, 63, 39, 0.50);
+    padding: 50px;
+    width:1150px;
+}
+.contactBox p {
+    color: #fff;
+    font-family: "futuralight";
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+}
+.checkbox.col-lg-6 {
+    text-align: left;
+    margin-top: 20px;
+}
+label {
+    color: #fff;
+    font-family: futuralight;
+    letter-spacing: 1px;
+}
+.text2::-webkit-input-placeholder {
+    color: #000;
+    padding-left:15px;
+}
+ 
+.text2:-moz-placeholder {
+    color: #000;
+    padding-left:15px;
+   
+}
+
+.text2::-moz-placeholder {
+    color: #000;
+    padding-left:15px;
+  
+}
+.text2:-ms-input-placeholder {
+    color: #000;
+    padding-left:15px;
+  
+}
+.form-control {
+    font-family: "futurabook";
+    height: 60px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #000;
+    border-radius: 0;
+}
+.contactBox .row .col-lg-6 {
+    padding: 0 7px;
+}
+.contactBox .row .col-lg-12 {
+    padding: 0 7px;
+}
+  /*end devtest*/
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+
+/* Callout */
+
+.callout {
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.callout div h2{
+  font-size: 4em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .callout div h2{
+        font-size: 3em;
+    }
+}
+.flex-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+    background-color: #F6F6F7;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+    box-shadow:1px 5px 20px rgba(125, 125, 125, 0.4);
+
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: .8;
+}
+
+.img-title{
+  background-color: #fff;
+  color: #212529;
+  padding-top:5px;
+  padding-bottom: 15px;
+}
+.img-title a{
+  color: #212529;
+}
+
+
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+.map iframe {
+    pointer-events: none;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+}
+
+#to-top {
+    font-size: 1em;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    padding: 15px 20px;
+}
+
+.pagination {
+  margin-bottom: 15px;
+}
+/*!
+ * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+(function($) {
+  "use strict"; // Start of use strict
+
+  // Closes the sidebar menu
+  $("#menu-close").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+
+  // Opens the sidebar menu
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#sidebar-wrapper").toggleClass("active");
+  });
+
+  // Smooth scrolling using jQuery easing
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+    if (
+      location.pathname.replace(/^\//, "") ==
+        this.pathname.replace(/^\//, "") &&
+      location.hostname == this.hostname
+    ) {
+      var target = $(this.hash);
+      target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+      if (target.length) {
+        $("html, body").animate(
+          {
+            scrollTop: target.offset().top
+          },
+          1000,
+          "easeInOutExpo"
+        );
+        return false;
+      }
+    }
+  });
+
+  // Closes responsive menu when a scroll trigger link is clicked
+  $(".js-scroll-trigger").click(function() {
+    $("#sidebar-wrapper").removeClass("active");
+  });
+
+  //#to-top button appears after scrolling
+  var fixed = false;
+  $(document).scroll(function() {
+    if ($(this).scrollTop() > 250) {
+      if (!fixed) {
+        fixed = true;
+        $("#to-top").show("slow", function() {
+          $("#to-top").css({
+            position: "fixed",
+            display: "block"
+          });
+        });
+      }
+    } else {
+      if (fixed) {
+        fixed = false;
+        $("#to-top").hide("slow", function() {
+          $("#to-top").css({
+            display: "none"
+          });
+        });
+      }
+    }
+  });
+})(jQuery); // End of use strict
+
+// Disable Google Maps scrolling
+// See http://stackoverflow.com/a/25904582/1607849
+// Disable scroll zooming and bind back the click event
+var onMapMouseleaveHandler = function(event) {
+  var that = $(this);
+  that.on("click", onMapClickHandler);
+  that.off("mouseleave", onMapMouseleaveHandler);
+  that.find("iframe").css("pointer-events", "none");
+};
+var onMapClickHandler = function(event) {
+  var that = $(this);
+  // Disable the click handler until the user leaves the map area
+  that.off("click", onMapClickHandler);
+  // Enable scrolling zoom
+  that.find("iframe").css("pointer-events", "auto");
+  // Handle the mouse leave event
+  that.on("mouseleave", onMapMouseleaveHandler);
+};
+// Enable map zooming with mouse scroll when the user clicks the map
+$(".map").on("click", onMapClickHandler);
+
+//fadein/out function
+setTimeout(function() {
+  $("#content").fadeOut("slow", function() {
+   $("#content").fadeOut("slow", function() {
+     $("#content").html("<div class='top'>\
+<img src='img/sm-logo.png'>\
+   </div>\
+   <div class='text1'>\
+     <p>\
+       Welcome to San Michele Collection. Located in the heart of Weston,<br>\
+       this inspired neighborhood offers residents a luxury home with the country club-lifestyle to match it.<br>\
+       Reimagined residences feature kitchens, bathrooms and rooms elegantly finished with the finest materials.<br>\
+       Curated community spaces and amenities, including the Collection Members Club,<br>\
+       offer an unparalleled residential experience.\
+     </p>\
+   </div>\
+   <a href='#' class='btn btncontact'>CONTACT US</a>");
+     setTimeout(function() {
+        $("#content").fadeIn("slow");
+      }, 1000);
+    });
+  });
+}, 2000);
+
+setTimeout(function() {
+  $("#content").fadeOut("slow", function() {
+   $("#content").fadeOut("slow", function() {
+     $("#content").html("<div class='contactBox'>\
+     <div class='smLogo'>\
+       <img src='img/small-logo.png'>\
+    </div>\
+    <p>CONTACT US</p>\
+    <form>\
+       <div class='row  form-group'>\
+           <div class='checkbox col-lg-6'>\
+               <label><input type='checkbox'> I'M A REAL ESTATE AGENT</label>\
+           </div>\
+         <div class='col-lg-6'>\
+           <input type='text' class='form-control text2' placeholder='COMPANY'>\
+         </div>\
+       </div>\
+       <div class='row form-group'>\
+           <div class='col-lg-6'>\
+             <input type='text' class='form-control text2' placeholder='FIRST NAME*'>\
+           </div>\
+           <div class='col-lg-6'>\
+             <input type='text' class='form-control text2' placeholder='LAST NAME*'>\
+           </div>\
+         </div>\
+         <div class='row form-group'>\
+             <div class='col-lg-6'>\
+               <input type='text' class='form-control text2' placeholder='EMAIL ADDRESS*'>\
+             </div>\
+             <div class='col-lg-6'>\
+               <input type='text' class='form-control text2' placeholder='PHONE NUMBER*'>\
+             </div>\
+           </div>\
+           <div class='row form-group'>\
+               <div class='col-lg-12'>\
+               <textarea class='form-control text2' id='Textarea1' rows='5' placeholder='MESSAGE*'></textarea>\
+            </div>\
+            </div>\
+            <div>\
+               <a href='#' class='btn btncontact'>CONTACT US</a>\
+            </div>\
+     </form>\
+   </div>");
+     setTimeout(function() {
+        $("#content").fadeIn("slow");
+      }, 1000);
+    });
+  });
+}, 6000);
+
+setTimeout(function() {
+  $("#content").fadeOut("slow", function() {
+   $("#content").fadeOut("slow", function() {
+     $("#content").html(" ");
+     setTimeout(function() {
+        $("#content").fadeIn("slow");
+      }, 1000);
+    });
+  });
+}, 11000);
