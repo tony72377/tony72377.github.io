@@ -253,6 +253,12 @@ hr.small {
 .top img{
     max-width: 25%;
 }
+.contain{
+    border-radius:10px;
+    background:#f2f2f2;
+    padding:20px;
+
+}
 .text1 p {
     color:#fff;
     font-size: 24px;
