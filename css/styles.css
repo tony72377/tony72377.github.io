@@ -205,7 +205,10 @@ hr.small {
     backface-visibility: hidden;
     cursor:pointer;
 }
-  
+i.fa.fas.fa-heart {
+    color: pink;
+    font-size: 90px;
+}
   .middle {
     transition: .5s ease;
     opacity: 0;
@@ -496,7 +499,7 @@ label {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 #to-top {
@@ -511,3 +514,8 @@ footer {
 .pagination {
   margin-bottom: 15px;
 }
+@media only screen and (max-width: 800px) {
+    .text-vertical-center h1 {
+      font-size:2.5em;;
+    }
+  }
