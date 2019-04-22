@@ -18,7 +18,7 @@
     <meta name="description" content="Anthony Corea's Website Porfolio">
     <meta name="author" content="">
 
-    <title>Little Squirrel</title>
+    <title>Web Developer Anthony Corea</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,109 +30,110 @@
 
     <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
   </head>
 
   <body>
     <!-- Navigation -->
-    
-    
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
+          <i class="fa fa-times"></i>
+        </a>
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#top">Anthony Corea</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="#services">Services</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="portfolio.html">Portfolio</a>
+        </li>
+        <li>
+          <a class="js-scroll-trigger" href="#contact" onclick='$("#menu-close")'.click();>Contact</a>
+        </li>
+      </ul>
+    </nav>
 
     <!-- Header -->
     <header class="header" id="top">
       <div class="text-vertical-center">
-        <h1>Dalina, will you be my valentine?</h1>
+        <h1>Anthony Corea</h1>
+        <h3>Front-end Developer</h3>
         <br>
-       
+        <a href="portfolio.html" class="btn btn-dark btn-lg js-scroll-trigger">My Projects</a>
       </div>
     </header>
 
     <!-- About -->
     <section id="about" class="about">
       <div class="container text-center">
-        <h2>I mean, we're already so cute together</h2>
-        <div class="col-lg-12 mx-auto">
-          <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <div class="service-item">
-
-                <div class="container1">
-                  
-                    <img class="img-fluid image" src="img/dalina-2.jpg" alt="porfolio item">
-                    
-                    <div class="middle">
-                        <div class="text">From Silliness</div>
-                      </div>
-                    </div>
-                    </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-                  <div class="service-item">
-
-                  <div class="container1">
-                      <img class="img-fluid image" src="img/dalina-3.jpg" alt="porfolio item">
-                      
-                      <div class="middle">
-                          <div class="text">To Sexiness</div>
-                        </div>
-                      </div>
-                </div>
-              </div>
-              </div>
-        </div>
-      </div>
+        <h2>Responsive SEO optimized WordPress, Shopify, and Magento Websites</h2>
       <!-- /.container -->
     </section>
 
     <!-- Services -->
-    <section id="services" class="services bg-custom">
+    <section id="services" class="services bg-primary text-white">
       <div class="container">
         <div class="row text-center">
-          <div class="col-lg-12 mx-auto">
-            <h2>And you're just so adorable!!!</h2>
+          <div class="col-lg-10 mx-auto">
+            <h2>Services</h2>
             <hr class="small">
             <div class="row">
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-3 col-sm-6">
                 <div class="service-item">
-                    <div class="container1">
-                        <img class="img-fluid image" src="img/dalina-5.jpg" alt="porfolio item">
-                        
-                        <div class="middle">
-                            <div class="text">Look at that face!</div>
-                          </div>
-                        </div>
-                  
-                 
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-wordpress fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>WordPress Development</strong>
+                  </h4>
+                  <p>Modern Web development using the easy to use CMS, WordPress</p>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-3 col-sm-6">
                 <div class="service-item">
-                     <div class="container1">
-                      <img class="img-fluid image" src="img/dalina-4.jpg" alt="porfolio item">
-                      
-                      <div class="middle">
-                          <img src="img/dalina-6.jpg">
-                        </div>
-                      </div>
-                 
-                  
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-shopping-bag fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Shopify Development</strong>
+                  </h4>
+                  <p>Quick development of an ecommerce store hosted on Shopify</p>
                 </div>
               </div>
-              <div class="col-md-4 col-sm-6">
+              <div class="col-md-3 col-sm-6">
                 <div class="service-item">
-                    <div class="container1">
-                        <img class="img-fluid image" src="img/dalina-7.jpg" alt="porfolio item">
-                        
-                        <div class="middle">
-                            <div class="text">Caught you taking selfies :)</div>
-                          </div>
-                        </div>
-                  
-                 
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-shopping-cart fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Magento Development</strong>
+                  </h4>
+                  <p>Secure and sturdy development for ecommerce using Magento CMS</p>
                 </div>
               </div>
-              
+              <div class="col-md-3 col-sm-6">
+                <div class="service-item">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-search fa-stack-1x text-primary"></i>
+                  </span>
+                  <h4>
+                    <strong>Search Engine Optimization</strong>
+                  </h4>
+                  <p>Improve your organic search traffic in order to better target your audience</p>
+                </div>
+              </div>
             </div>
             <!-- /.row (nested) -->
           </div>
@@ -144,7 +145,11 @@
     </section>
 
     <!-- Callout -->
-    
+    <aside class="callout flex-container">
+      <div class="">
+        <h2>Trusted Secure Development</h2>
+      </div>
+    </aside>
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
@@ -152,38 +157,28 @@
         <div class="row">
 
           <div class="col-lg-12 mx-auto text-center">
-            <h2>And I love the way you eat :)</h2>
+            <h2>My Work</h2>
             <hr class="small">
 
             <div class="row">
 
               <div class="col-md-6">
                 <div class="portfolio-item">
-                 
-                      <div class="container1">
-                    <img class="img-fluid image" src="img/dalina-8.jpg" alt="porfolio item">
-                    
-                      
-                      <div class="middle">
-                        <div class="text">Whether you're trying something new</div>
-                      </div>
-                    </div>
+                  <a href="portfolio.html">
+                    <img class="img-portfolio img-fluid" src="img/Bongos-295.jpg" alt="porfolio item">
+                    <h3 class="text-center img-title">Bongos Agency</h3>
 
-                  
+                  </a>
                 </div>
               </div>
              
               <div class="col-md-6">
                   <div class="portfolio-item">
-                  
-                        <div class="container1">
-                      <img class="img-fluid image" src="img/dalina-9.jpg" alt="porfolio item">
-                      
-                      <div class="middle">
-                          <div class="text">Or stealing my Cheescake!!</div>
-                        </div>
-                      </div>
-               
+                    <a href="portfolio.html">
+                      <img class="img-portfolio img-fluid" src="img/pcgaming295.jpg" alt="porfolio item">
+                      <h3 class="text-center img-title">PC Gaming Race</h3>
+  
+                    </a>
                   </div>
                 </div>
 
@@ -197,26 +192,25 @@
               </div>
            
             
-            
+            <a href="portfolio.html" class="btn btn-dark btn-lg portfolio-btn">View More Items</a>
             
           </div>
           <!-- /.col-lg-10 -->
         </div>
         <!-- /.row -->
-      
-      <!-- /.container -->
-    </section>
-    
-    <section class="bottom" id="">
-      <div class="text-vertical-center">
-        <h1>So please, be my valentine! <br>And let's go to our favorite diner</h1>
-        <br>
-       
       </div>
+      <!-- /.container -->
     </section>
 
     <!-- Call to Action -->
-    
+    <aside class="call-to-action bg-primary text-white">
+      <div class="container text-center">
+        <h3>Connect with me!</h3>
+        <a href="https://github.com/tony72377" class="btn btn-lg btn-light">Github!</a>
+        <a href="https://www.linkedin.com/in/anthony-corea-web/" class="btn btn-lg btn-dark">LinkedIn!</a>
+      </div>
+    </aside>
+
     <!-- Map -->
   <!--   <section id="contact" class="map">
       <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
@@ -232,11 +226,34 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
-            <i class="fa fas fa-heart"></i>
-            
-            
+            <h4>
+              <strong>Anthony Corea</strong>
+            </h4>
+            <p>New York City, New York</p>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-phone fa-fw"></i>
+                (305) 798-7088</li>
+              <li>
+                <i class="fa fa-envelope-o fa-fw"></i>
+                <a href="mailto:tony72377@gmail.com">tony72377@gmail.com</a>
+              </li>
+            </ul>
+            <br>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/anthony-corea-web/">
+                  <i class="fa fa-linkedin fa-fw fa-3x"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/tony72377">
+                  <i class="fa fa-github fa-fw fa-3x"></i>
+                </a>
+              </li>
+            </ul>
             <hr class="small">
-            
+            <p class="text-muted">Copyright &copy; anthonycorea.com 2018</p>
           </div>
         </div>
       </div>

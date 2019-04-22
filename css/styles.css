@@ -24,8 +24,7 @@ a:hover{
 .text-vertical-center {
     display: table-cell;
     text-align: center;
-    vertical-align: bottom;
-    background: #0000001a;
+    vertical-align: middle;
 }
 
 .text-vertical-center h1 {
@@ -33,15 +32,9 @@ a:hover{
     font-weight: 700;
     margin: 0;
     padding: 0;
-    color:#fff;
 }
-h2 {
-    font-size: 40px;
-}
-.bg-custom{
-    background:#fbd9df;
-    
-}
+
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -178,59 +171,12 @@ hr.small {
     display: table;
     width: 100%;
     height: 100%;
-    background: url(../img/dalina-1.1.jpg) no-repeat center center scroll;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-.bottom {
-    position: relative;
-    display: table;
-    width: 100%;
-    height: 64%;
-    background: url(../img/dalina-10.jpg) no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    box-shadow: 1px 5px 20px rgba(125, 125, 125, 0.4);
-    backface-visibility: hidden;
-    cursor:pointer;
-}
-i.fa.fas.fa-heart {
-    color: pink;
-    font-size: 90px;
-}
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-   
-  }
-  .text{
-      font-size:30px;
-  }
-  
-  .container1:hover .image {
-    opacity: 0.3;
-  }
-  
-  .container1:hover .middle {
-    opacity: 1;
-  }
 /*devtest*/
 
 @font-face {
@@ -499,7 +445,7 @@ label {
 /* Footer */
 
 footer {
-    padding: 70px 0;
+    padding: 100px 0;
 }
 
 #to-top {
@@ -514,8 +460,3 @@ footer {
 .pagination {
   margin-bottom: 15px;
 }
-@media only screen and (max-width: 800px) {
-    .text-vertical-center h1 {
-      font-size:2.5em;;
-    }
-  }
